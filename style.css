@@ -30,5 +30,16 @@ button{
     border-color: #FF756B;
     color: #460000;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+button:hover{
+    background-color: #f8944d;
+    border-color: #fdaaa4;
+    color: #750000;
+}
+
+input{
+    padding: 5px;
 }
